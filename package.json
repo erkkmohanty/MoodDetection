@@ -1,0 +1,28 @@
+{
+  "name": "mooddetection",
+  "version": "1.0.0",
+  "description": "image upload",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node --presets env,stage-2 server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kiran Mohanty",
+  "license": "ISC",
+  "dependencies": {
+    "azure-storage": "^2.10.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "into-stream": "^4.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.3",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.4"
+  }
+}
